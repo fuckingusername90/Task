@@ -1,0 +1,119 @@
+@media only screen and (max-width: 750px) {
+  :root {
+    --gray-border-color: #818181;
+    --gray-color: #f2f2f2;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    line-height: 1.5em;
+    padding: 0.4em 0em 0.4em 1em;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-first-div {
+    width: 85vw;
+    text-align: left;
+    padding-bottom: 0;
+  }
+  .about-second-div {
+    width: 85vw;
+    text-align: left;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .btn {
+    width: 85vw;
+    border-radius: 0.3em;
+  }
+
+  .text-type-small {
+    line-height: 1.9em;
+    font-size: 0.85em;
+    font-weight: lighter;
+  }
+
+  .about-first-p {
+    line-height: 1.6em;
+  }
+
+  .icon {
+    padding: 0;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+  }
+
+  .icon-media {
+    padding-bottom: 0;
+  }
+
+  .about-second-div h2 {
+    margin-top: 0;
+    margin: 0 3em;
+  }
+
+  .text-type-3 {
+    padding-bottom: 2em;
+  }
+
+  .service-grid,
+  .protfolio-grid,
+  .pricing-grid,
+  .contact-grid {
+    grid-template-columns: auto;
+  }
+
+  .service-grid {
+    margin-bottom: 3em;
+  }
+  .image-div {
+    margin-bottom: 2em;
+  }
+
+  .basic {
+    width: 82vw;
+    margin-bottom: 4em;
+  }
+
+  .btn-1 {
+    width: 95%;
+    border-radius: 0.3em;
+  }
+
+  .form-grid,
+  .form-grid div {
+    flex-direction: column;
+  }
+
+  .form-grid {
+    padding: 0 3.5em;
+    justify-content: end;
+  }
+
+  #contact {
+    padding: 0;
+    padding-top: 3em;
+  }
+
+  .name,
+  .email,
+  .comment {
+    padding: 0.4em;
+    margin: 0;
+    width: 83vw;
+    border: 0.1em solid gray;
+    margin-bottom: 1.5em;
+  }
+
+  .button {
+    margin-bottom: 4em;
+  }
+}

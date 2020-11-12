@@ -1,0 +1,437 @@
+:root {
+  --orange-color: #f4511e;
+  --white-color: #fff;
+  --red-color: #d43f3a;
+  --white-gray-color: #f6f6f6;
+  --gray-color: #f2f2f2;
+  --gray-border-color: #818181;
+  --blue-color: #337ab7;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  display: block;
+}
+
+.menu {
+  visibility: hidden;
+}
+
+.text-type-1 {
+  font-size: 1.2em;
+  padding: 0.6em 2em 0 2em;
+}
+
+.text-type-2 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.text-type-3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.text-type-4 {
+  font-size: 1.8em;
+  color: var(--white-color);
+}
+.text-type-most {
+  font-size: 4em;
+}
+
+.text-type-big {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.text-type-medium {
+  font-size: 1.1em;
+}
+.text-type-small {
+  font-weight: lighter;
+  line-height: 1.9em;
+  font-size: 0.85em;
+}
+
+.text-type-smallest {
+  font-size: 0.1em;
+}
+.logo {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.icon-small {
+  color: var(--orange-color);
+  font-size: 3em;
+}
+
+.icon-smallest {
+  color: var(--orange-color);
+  font-size: 1.5em;
+}
+
+.icon {
+  color: var(--orange-color);
+  text-align: center;
+  font-size: 12em;
+  padding-top: 0.8em;
+  width: 35vw;
+}
+
+.trans {
+  opacity: 0.4;
+}
+
+.trans:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.select {
+  visibility: visible;
+  text-align: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+.letter-space {
+  letter-spacing: 0.2em;
+}
+
+.letter-space-logo {
+  letter-spacing: 0.2em;
+}
+
+.letter-space:hover,
+.nav li.active a {
+  background-color: var(--white-color) !important;
+  color: var(--orange-color) !important;
+}
+
+.padding-head {
+  background-color: var(--orange-color);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--orange-color);
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 1.5em 2em;
+  line-height: 1.3em;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header {
+  text-align: center;
+  background: var(--orange-color);
+  padding-top: 5em;
+  color: var(--white-color);
+  padding-bottom: 8em;
+}
+.header h1 {
+  margin-bottom: 0;
+}
+.header p {
+  margin-top: 0.7em;
+}
+
+.email-form {
+  width: 30em;
+  line-height: 1.2em;
+  padding: 0.6em;
+  margin-right: 0;
+}
+form {
+  padding: 0;
+  margin: 0;
+}
+.button-form {
+  margin-left: 0;
+  padding: 0.5em;
+  color: var(--white-color);
+  background-color: var(--red-color);
+  font-size: 0.9em;
+}
+
+.first-section {
+  display: flex;
+}
+
+.about-first-div {
+  margin: 4em 3em 3em 3em;
+  width: 65vw;
+}
+
+.about-second-div {
+  margin: 4em 3em 3em 3em;
+  width: 65vw;
+}
+
+.about-first-div h2 {
+  margin: 2.5em 0;
+  font-weight: bolder;
+}
+
+.about-second-div h2 {
+  margin: 2.5em 0;
+  font-weight: bolder;
+}
+
+.logo {
+  width: 35vw;
+}
+
+.about-first-p {
+  margin-bottom: 3em;
+  font-weight: bolder;
+  line-height: 1.6em;
+}
+
+.about-second-p {
+  margin-bottom: 2.5em;
+}
+
+.btn,
+.button,
+.btn-1 {
+  background-color: var(--white-color);
+  padding: 0.6em;
+  border-radius: 10%;
+  border: 0.1em solid gray;
+  cursor: pointer;
+}
+
+.button {
+  align-self: flex-end;
+  width: 5em;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: var(--gray-color);
+  border-color: var(--gray-border-color);
+}
+
+.btn-1:hover {
+  background-color: var(--white-color);
+  color: var(--orange-color);
+  border: 0.1em solid var(--orange-color);
+}
+
+.btn-bg:hover {
+  background-color: var(--white-gray-color);
+  color: #333;
+}
+.bg-color-gray {
+  background-color: var(--white-gray-color);
+}
+
+.service {
+  text-align: center;
+}
+#services {
+  padding-top: 4em;
+}
+.service p {
+  font-size: 1em;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.service-grid h4 {
+  margin-bottom: 2.5em;
+}
+
+.protfolio {
+  text-align: center;
+}
+
+.protfolio h2 {
+  margin-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.protfolio p {
+  font-size: 1em;
+}
+
+.protfolio-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1em 2.5 em;
+  grid-column-gap: 2em;
+  margin: 1em 3em;
+}
+
+.image-div {
+  margin: 0;
+  background-color: var(--white-color);
+}
+
+.image-div img {
+  max-height: 40vh;
+}
+
+.image-div p {
+  font-weight: lighter;
+}
+
+img {
+  width: 100%;
+}
+
+.pricing {
+  text-align: center;
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+
+.pricing p {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 1.5em;
+  padding: 0 3em;
+}
+
+.basic {
+  border: 0.1em solid var(--orange-color);
+  padding-bottom: 1.5em;
+  width: 28vw;
+  transition: box-shadow 0.5s;
+}
+
+.basic:hover {
+  box-shadow: -0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.05),
+    0.5em -0.2em 0.5em 0.5em rgba(0, 0, 0, 0.15);
+}
+.pricing-bg {
+  display: block;
+  background-color: var(--orange-color);
+  padding: 1.3em 0;
+  margin-bottom: 1.2em;
+}
+
+.advertise {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.body p:last-child {
+  border-bottom: 0.1em solid var(--gray-border-color);
+  padding-bottom: 1.5em;
+}
+
+.foot {
+  font-weight: lighter;
+}
+
+.foot button {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+.contact {
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0 4em;
+}
+.name,
+.email {
+  width: 45%;
+  line-height: 1.5em;
+  padding: 0.4em;
+}
+
+.form-grid div {
+  display: flex;
+  justify-content: space-between;
+}
+.comment {
+  height: 10em;
+  width: 50vw;
+  margin: 1.5em 0;
+  padding: 0.4em;
+  text-align: start;
+  vertical-align: bottom;
+}
+
+.contact-first-div {
+  text-align: left;
+  padding-left: 3.5em;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+footer div {
+  padding: 4em;
+}
+
+.footer {
+  text-decoration: none;
+  color: var(--blue-color);
+}
+
+.footer:hover {
+  text-decoration: underline;
+}
+
+.footer-p {
+  padding-top: 0.8em;
+}
